@@ -34,9 +34,11 @@ services:
             - mariadb-data:/var/lib/mysql
         networks:
             - proxy
+            - mariadb_network
 
 networks:
     proxy:
+    mariadb_network
 
 volumes:
     nginx-proxy-manager-data:

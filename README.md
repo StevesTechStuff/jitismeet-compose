@@ -2,7 +2,7 @@ Jitsi Meet docker compose file with Nginx Proxy Manager and MariaDB
 
 Download and extract the latest release. DO NOT clone the git repository. See below if you are interested in running test images:
 
-wget $(curl -s https://api.github.com/repos/jitsi/docker-jitsi-meet/releases/latest | grep 'zip' | cut -d\" -f4)
+wget $(curl -s https://api.github.com/repos/jitsi/docker-jitsi-meet/releases/latest | grep 'zip' | cut -d\'"' -f4)
 
 Unzip the package:
 
